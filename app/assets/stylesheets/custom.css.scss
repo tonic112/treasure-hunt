@@ -1,0 +1,110 @@
+$alignment-example: red;
+
+.navbar-collapse {
+ 
+  background-color: #1A1819;
+ 
+  border-color: #425766;
+ 
+}
+
+.navbar-nav {
+    color: #ACC2AD;
+}
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+
+#logo {
+    float: left;
+    font-size: 1.6em;
+    color: #ACC2AD;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    margin-top: 45px;
+    background-image: asset-url('treasure.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.btn-xlarge {
+    font-size: 1.7em;
+    background-color: black;
+}
+
+.bottom {
+    float:bottom;
+    display:inline-block;
+    vertical-align:bottom;
+    margin-right:0px;
+    margin-top:450px;
+}
+
+
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    margin-bold: 38px;
+    letter-spacing: -1px;
+    font-weight: 33px;
+}
+
+.article-actions {
+    border-top: 1px solid #eaeaea;
+    padding-top: 5px;
+}
+
+.description {
+    margin-top: 0;  
+}
+
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer {
+    margin-top: 100px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+}
+
+footer a:hover {
+    color: #222;
+}
+
+footer small {
+    float: left;
+    
+}
+
+footer ul {
+    float: right;
+    list-style: none;
+}
+
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
