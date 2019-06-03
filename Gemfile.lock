@@ -79,7 +79,6 @@ GEM
     minitest (5.11.3)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
-    pg (1.1.4)
     popper_js (1.14.5)
     rack (1.6.11)
     rack-test (0.6.3)
@@ -162,7 +161,6 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  pg
   popper_js (~> 1.14, >= 1.14.5)
   rails (= 4.2.11)
   rails_12factor
